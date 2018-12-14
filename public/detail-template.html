@@ -1,0 +1,49 @@
+<div class="centerleft" style="width: 960px">
+            <div id="curauto" class="ctop" style="border-top: 1px solid #e5e5e5;">
+                <img class="pic" src={{imgUrl}}
+                    width="160" height="160"> <span class="spm">
+                    <i>{{title}}</i>
+                    <i>价格<b>{{price}}<em>元/小时</em></b><b class="oldpic" style="display: inline-block">原价<em>{{oldPrice}}元</em></b></i>
+                    <i style="display: none">优惠<em class="youhui" style="display: none"></em><em class="youhui" style="display: none"></em></i>
+
+                    <i>已售<em class="yishou">{{orderCount}}</em></i>
+
+                </span>
+                <span class="spf">
+                    <i id="qrcode"></i>
+                    <b>扫一扫</b><b>立即预约</b>
+                </span>
+
+            </div>
+            <div class="cdown"> <b>服务描述</b>
+
+                <p>{{servedes}}</p> <b>服务范围</b>
+
+                <p>{{servesco}}</p> <b>服务时间</b>
+
+                <p>{{seredate}}<i>最近可预约时间:<em>{{servedatalately}}</em></i>
+                </p> <b>订购须知</b>
+
+                <p style="background: #fffcf1">{{orderdep}}</p> <b>商家简介</b>
+
+                <p>{{business}}</p>
+            </div>
+        </div>
+        <div class="centerright" style="position: relative; margin-left: 10px">
+            <div class="rightct" style="cursor: pointer">
+                <h3>服务商</h3>
+
+                <img style="text-align: center; margin:40px 50px; margin-bottom: 10px" src={{iconUrl}}
+                    width="80" height="80">
+                <p style="text-align: center; margin-bottom: 20px; font-weight: bold">{{name}}</p>
+                <p>成功接单<i>{{soldCount}}</i>
+                </p>
+                <p>接单率<i>{{accept}}</i>
+                </p>
+                <p>好评率<i>{{praise}}</i>
+                </p>
+            </div>
+            <div class="erweima">
+                <img src="../img/daowayApp.png" width="130" height="auto">
+            </div>
+        </div>

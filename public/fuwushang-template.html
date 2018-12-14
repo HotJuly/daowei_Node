@@ -1,0 +1,18 @@
+{{each list as item}}
+<div class="conmentss">
+    <img class="touxiang" src={{item.iconUrl}} width="40" height="40">
+    <ul>
+        <li>大蜀山</li>
+        <li> <span id="star" style="width: 70px; margin-left: 0"><span class="noColor" style="left: 0">
+                {{each item.star as value}}
+                    <img src="https://www.daoway.cn/pcimages/red_star@2x.png" width="10" height="10">
+                {{/each}}
+                </span></span><em style="margin-left: 10px">{{item.createtime}}</em>
+        </li>
+        <li class="commentdetail">{{item.comment}}</li>
+        <li class="commentimg"></li>
+        <li class="commentposition">
+            <img src="https://www.daoway.cn/pcimages/position@2x.jpg" width="9" height="11">{{item.city}} {{item.area}}</li>
+    </ul>
+</div>
+{{/each}}
